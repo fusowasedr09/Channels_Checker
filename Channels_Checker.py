@@ -34,7 +34,7 @@ def youtube_search(ID, DEVELOPER_KEY):
         title = item2["snippet"].get("title")
 
 # コメント送信部
-def send_discordn(channel,comment):
+def send_discord(channel,comment):
     # メッセージを変更したい場合はcontentを編集
     content = str(channel) + "のチャンネル登録者数は現在約" + str(comment) + "名です。"
     payload ={"content": content}
