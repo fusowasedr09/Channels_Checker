@@ -1,11 +1,12 @@
 # Channels_Checker
 It can check number of Youtube subscribers and post result at your Discord server.（Japanese)  
   
-日本語  
+・日本語  
 Channels Checker  
 Youtubeのチャンネル登録者数をAPI経由で取得し、Webhookを通じてDiscordにポストします。  
-（WebhookURLが使用できればDiscordに限らず動くとは思いますがテストしてません）
-  
+（WebhookURLが使用できればDiscordに限らず動くとは思いますがテストしてません）  
+環境  
+Python 3.4以降
 必要モジュール:requests  
   
 使用方法  
